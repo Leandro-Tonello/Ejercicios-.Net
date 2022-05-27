@@ -1,0 +1,16 @@
+C:\Users\Leandro\source\repos\Listador\listador\bin\Debug\net5.0\01_Listar.exe
+C:\Users\Leandro\source\repos\Listador\listador\bin\Debug\net5.0\01_Listar.deps.json
+C:\Users\Leandro\source\repos\Listador\listador\bin\Debug\net5.0\01_Listar.runtimeconfig.json
+C:\Users\Leandro\source\repos\Listador\listador\bin\Debug\net5.0\01_Listar.runtimeconfig.dev.json
+C:\Users\Leandro\source\repos\Listador\listador\bin\Debug\net5.0\01_Listar.dll
+C:\Users\Leandro\source\repos\Listador\listador\bin\Debug\net5.0\ref\01_Listar.dll
+C:\Users\Leandro\source\repos\Listador\listador\bin\Debug\net5.0\01_Listar.pdb
+C:\Users\Leandro\source\repos\Listador\listador\obj\Debug\net5.0\01_Listar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leandro\source\repos\Listador\listador\obj\Debug\net5.0\01_Listar.AssemblyInfoInputs.cache
+C:\Users\Leandro\source\repos\Listador\listador\obj\Debug\net5.0\01_Listar.AssemblyInfo.cs
+C:\Users\Leandro\source\repos\Listador\listador\obj\Debug\net5.0\01_Listar.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\source\repos\Listador\listador\obj\Debug\net5.0\01_Listar.dll
+C:\Users\Leandro\source\repos\Listador\listador\obj\Debug\net5.0\ref\01_Listar.dll
+C:\Users\Leandro\source\repos\Listador\listador\obj\Debug\net5.0\01_Listar.pdb
+C:\Users\Leandro\source\repos\Listador\listador\obj\Debug\net5.0\01_Listar.genruntimeconfig.cache
+C:\Users\Leandro\source\repos\listador\listador\obj\Debug\net5.0\01_Listar.csproj.AssemblyReference.cache

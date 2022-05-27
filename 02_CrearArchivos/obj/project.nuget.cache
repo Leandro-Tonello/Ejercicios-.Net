@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "tbIKLEfL+1x6fZopZQ325xjkP1PrTFBHtcOPmwnsz2REmCzcYcGnGDBI12HloG6YBAG1TDHr+Go5VgI3wqNCnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Leandro\\source\\repos\\listador\\02_CrearArchivos\\02_CrearArchivos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
