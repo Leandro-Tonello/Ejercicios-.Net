@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Net;
+using System.Net.Http;
+using RestSharp;
+using AngleSharp;
+using AngleSharp.Dom;
+using AngleSharp.Html.Parser;
 using System.Threading.Tasks;
-using System.IO;
-using HtmlAgilityPack;
-using ScrapySharp.Extensions;
 
 namespace _03_ApuntarURL
 
@@ -14,7 +15,7 @@ namespace _03_ApuntarURL
     {
         public void CrearTexto(string nombre, string directorioDePC)
         {
-            var fileFinal = System.IO.Path.Combine(directorioDePC, nombre+".txt");
+            var fileFinal = System.IO.Path.Combine(directorioDePC, nombre + ".txt");
             using (var fs = System.IO.File.Create(fileFinal))
             {
                 fs.Close();
@@ -22,20 +23,33 @@ namespace _03_ApuntarURL
         }
 
 
-        public void EscribirWeb(string url, string directory, string nombreDelArchivo )
+        public EscribirWeb(string url, string directory, string nombreDelArchivo)
         {
-            //TODO: usar using
-            StreamWriter sw = new StreamWriter(directory + "/" + nombreDelArchivo +".txt");
+         
+          
+            var client = new RestClient(directory);
+            var request = new RestRequest(directory, Method.Post);
+
+            // No entiendo como pedirle al request su contenido
             
-            //TODO: aprender a usar RestSharp
-            HtmlWeb web = new HtmlWeb();
-            HtmlDocument html = web.Load(url);
-            
-            var nodes = html.DocumentNode.CssSelect("body").Select(x => x.OuterHtml);
-            foreach (var n in nodes)
+
+            //Grabo el html de la peticion en una lista
+            List<string> hrefTags = new List<string>();
+            var parser = new HtmlParser();
+            //No puedo continuar con este ejercicio ya que en ningun momento recibo el HTML crudo
+            var document = parser.ParseDocument(Html);
+
+            foreach (IElement element in document.QuerySelectorAll("a"))
             {
-                sw.WriteLine(n);
+                hrefTags.Add(element.GetAttribute("href"));
             }
+            
+
         }
+
+   
+
+
+
     }
 }
