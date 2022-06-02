@@ -22,18 +22,14 @@ namespace _03_ApuntarURL
             }
         }
 
-
-        public EscribirWeb(string url, string directory, string nombreDelArchivo)
+        public void EscribirWeb(string url, string directory, string nombreDelArchivo)
         {
-         
-          
+            // No se si esta es la forma correcta de declarar una web en RestSharp 
             var client = new RestClient(directory);
             var request = new RestRequest(directory, Method.Post);
-
-            // No entiendo como pedirle al request su contenido
-            
-
-            //Grabo el html de la peticion en una lista
+                // Como hago para pasar el contenido del client (el html) al var document de abajo
+                var Html =  ????? ;
+                //Grabo el html de la peticion en una lista
             List<string> hrefTags = new List<string>();
             var parser = new HtmlParser();
             //No puedo continuar con este ejercicio ya que en ningun momento recibo el HTML crudo
