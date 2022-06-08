@@ -50,6 +50,9 @@ namespace _03_ApuntarURL
 
             GestionadorDeURL gestionador = new GestionadorDeURL(args[0], args[1], args[2]);
             //Por que ahora me pide que le declare variables y en ejercicios anteriores no
+            
+            //porque ahora estas pasando los argumentos en el constructor, que no está explícito, ni tiene argumentos, anteriormente usabas un metodo (no estoy seguro si de instancia o de clase).
+
             gestionador.CrearTexto(args[2], args[1]);
         }
     }
